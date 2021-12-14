@@ -60,8 +60,14 @@ page_obj.getNavButtons_1().should('have.length', 4)
 ```
 
 ### Set up ###
-clone...
-install
-open cypress
+
+1. ```git clone git@github.com:xs-hua/test-tool-with-cypress.git```
+2. ```cd test-tool-with-cypress```
+3. ```npm install```
+4. ```npm run cypress-open```
+
+<img src="./example/demo.gif">
+
+
 
 
