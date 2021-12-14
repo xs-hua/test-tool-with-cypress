@@ -1,9 +1,10 @@
 
 # Overview
 
-This is an ui and api test framework using cypress and cucumber
-- demonstrate api test with public api()
+This is an ui framework using cypress and cucumber
+
 - demonstrate ui test with cypress official page
+- demonstrate api test with public api(TODO)
 
 ### Some opinions derived from previous use experience ###
 - not compatible enough with CI, test tool(browserstack etc.)
@@ -18,7 +19,6 @@ cy.fixture('config-data.json').then(datas => {
         //do something
     })
 ```
-
 
 ### Customized cypress command in */support/command.js* ###
 supporting functions are placed in */support/command-utilities.js*
@@ -59,5 +59,9 @@ page_obj.getNavButtons_1().should(
 page_obj.getNavButtons_1().should('have.length', 4)
 ```
 
+### Set up ###
+clone...
+install
+open cypress
 
 
